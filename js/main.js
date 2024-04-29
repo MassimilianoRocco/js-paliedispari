@@ -6,4 +6,4 @@ let numeroUtente = parseInt(prompt("Inserisci un numero tra 1 e 5"));
 let numeroRandom = randomNumber();
 
 const somma = parseInt(numeroUtente + numeroRandom);
-pariDispari(somma);
+pariDispari(somma, sceltaUtente);
