@@ -13,7 +13,7 @@ function palindroma(parola){
         parolaDaComparare += reverseWord[i];
     }
     
-    if(parola == parolaDaComparare){
+    if(parola.toLowerCase() == parolaDaComparare.toLowerCase()){
         document.getElementById('pali').innerHTML="La parola inserita \" " + parola + "\" è palindroma!";
     }
     else{
